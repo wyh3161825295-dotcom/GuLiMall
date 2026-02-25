@@ -1,0 +1,38 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+**/.mvn
+**/HELP.md
+
+# 1. 忽略所有模块的编译输出
+**/target/
+**/bin/
+**/out/
+
+# 2. 忽略所有 IDE 配置文件
+.idea/
+**/idea/
+**/*.iml
+**/*.iws
+**/*.ipr
+/vcs.xml
+/compiler.xml
+/encodings.xml
+/modules.xml
+/misc.xml
+
+# 3. 忽略 Maven 生成的临时文件
+.mvn/
+**/mvnw
+**/mvnw.cmd
+
+# 4. 忽略本地日志和临时缓存
+*.log
+**/logs/
+.shelf/
