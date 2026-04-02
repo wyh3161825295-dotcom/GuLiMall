@@ -26,6 +26,11 @@ spring:
 feign:
   sentinel:
     enabled: true
+  client:
+    config:
+      default:
+        connectTimeout: 5000 # 连接超时（毫秒）
+        readTimeout: 10000    # 读取超时（毫秒）建议调大
 
 
   thymeleaf:
