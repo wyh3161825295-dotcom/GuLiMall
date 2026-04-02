@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.100.128:8848
+    alicloud:
+      sms:
+        host: https://gyytz.market.alicloudapi.com
+        path: /sms/smsSend
+        appcode: 47b222e7f52b4c5e9342c7643aa7fd67
+
+
+  application:
+    name: gulimall-third-party
+
+server:
+  port: 30000

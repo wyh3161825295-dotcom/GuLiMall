@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: gulimall-order
+
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.100.128:8848
+        namespace: 7102672b-6f9a-4dd0-9f31-8c22a4f2f14b
+
+

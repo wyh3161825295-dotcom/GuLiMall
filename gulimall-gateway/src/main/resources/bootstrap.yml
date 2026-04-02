@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: gulimall-coupon
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.100.128:8848
+      config:
+        server-addr: 192.168.100.128:8848
+#        file-extension: yml
+        namespace: 3fa86aa2-8d07-441e-b1f4-fdc21c678a97

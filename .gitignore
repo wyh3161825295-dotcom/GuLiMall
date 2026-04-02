@@ -1,0 +1,32 @@
+# 以下不需要放入gulimall系统
+/renren-generator
+/gulimall-test-sso-client
+/gulimall-test-sso-server
+
+### Maven ###
+target/
+.mvn/
+**/mvnw
+**/mvnw.cmd
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+# 排除前端项目文件夹
+gulimall-admin-vue-app/
+
+# 排除 IDE 配置文件
+.idea/
+*.iml
+.vscode/
+
+# 排除后端编译输出（非常重要，防止仓库体积爆炸）
+**/target/
+**/bin/
+
+# 排除日志文件
+*.log
